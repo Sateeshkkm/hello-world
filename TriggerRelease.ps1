@@ -27,5 +27,5 @@ while($TRUE){
 		write-host $res.environments[0].status
 		break;
 	}
-	Start-Sleep -s $(PollingFrequency)
+	Start-Sleep -s $(PollingFrequencyInSeconds)
 }
